@@ -19,7 +19,7 @@ This project is designed to manage ingredients, recipes, and chatbot integration
 - **Recipe Management**: Parse and store recipes with metadata such as cuisine, taste, etc.
 - **Chatbot Integration**: A chatbot that recommends recipes based on user preferences.
 
-**Challenge 2 (Text-Based Recipe Parser)** is not completed.
+**Challenge 2 is not completed.(implemented some few modules but couldn't integrated)
 
 ## How to Run
 
