@@ -27,13 +27,21 @@ Follow these simple steps to get started with the notebook:
    git clone https://github.com/webgeekhabib007/Team_NPCs_Bitfest_Hackathon2025
    cd main/challange01
 
-2. Install the required libraries:
+2. **Install the required libraries**:
 ```
 pip install transformers datasets torch
 
-3. Launch the Jupyter Notebook:
+
+3. **Launch the Jupyter Notebook**:
 ```
 jupyter notebook hackathon_challange01.ipynb
+
+4. **Requirements**:
+```
+torch>=1.9.0
+transformers>=4.10.0
+datasets>=2.0.0
+
 
 
 ✨ Key Features
