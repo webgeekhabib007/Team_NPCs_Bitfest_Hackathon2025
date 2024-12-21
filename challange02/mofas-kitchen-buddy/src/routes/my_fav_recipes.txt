@@ -1,0 +1,44 @@
+Recipe Name: Chocolate Cake
+Ingredients:
+Flour
+Sugar
+Cocoa powder
+Eggs
+Milk
+Butter
+Baking Powder
+Metadata:
+Taste: Sweet
+Cuisine_type: American
+Prep_time: 30 mins
+Reviews: 4.5
+
+Recipe Name: Spaghetti Carbonara
+Ingredients:
+Spaghetti
+Eggs
+Pancetta
+Pecorino Romano cheese
+Black Pepper
+Garlic
+Olive oil
+Metadata:
+Taste: Savory
+Cuisine_type: Italian
+Prep_time: 20 mins
+Reviews: 4.8
+
+Recipe Name: Vegetable Stir Fry
+Ingredients:
+Bell peppers
+Carrots
+Broccoli
+Soy sauce
+Ginger
+Garlic
+Rice
+Metadata:
+Taste: Savory
+Cuisine_type: Asian
+Prep_time: 15 mins
+Reviews: 4.2

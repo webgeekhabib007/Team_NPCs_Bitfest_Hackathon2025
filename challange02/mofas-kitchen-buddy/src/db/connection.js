@@ -1,8 +1,11 @@
 const mongoose = require('mongoose');
 
+
+const uri = "mongodb+srv://habib007:<habib007>@cluster0.ke4lu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const connectDB = async () => {
   try {
-    const connection = await mongoose.connect('your-mongo-atlas-connection-string', {
+    const connection = await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
