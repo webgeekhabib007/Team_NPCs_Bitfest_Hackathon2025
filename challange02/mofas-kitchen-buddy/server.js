@@ -1,23 +1,25 @@
-// server.js
 const express = require('express');
-const dotenv = require('dotenv');
-
-// Initialize dotenv to load environment variables
-dotenv.config();
+const bodyParser = require('body-parser');
+const ingredientRoutes = require('./src/routes/ingredientRoutes');
+const recipeRoutes = require('./src/routes/recipeRoutes');
+const chatbotRoutes = require('./src/routes/chatbotRoutes');
+const dbConnection = require('./src/db/connection'); // Import MongoDB connection
 
 const app = express();
+const port = process.env.PORT || 5000;
 
-// Middleware to parse JSON requests
-app.use(express.json());
+// Middleware
+app.use(bodyParser.json());
 
-// Example route
-app.get('/', (req, res) => {
-  res.send('Hello, Kitchen Buddy!');
-});
+// Connect to MongoDB
+dbConnection();
 
-// Example of a port from environment variables (default to 3000)
-const port = process.env.PORT || 3000;
+// Use routes
+app.use('/ingredients', ingredientRoutes);
+app.use('/recipes', recipeRoutes);
+app.use('/chatbot', chatbotRoutes);
 
+// Start server
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
