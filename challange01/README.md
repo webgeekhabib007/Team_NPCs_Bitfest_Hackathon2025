@@ -1,5 +1,9 @@
 # Hackathon Challenge 01: Transformer Model for NLP Tasks
 
+![results](./modeltrain.png)
+
+
+
 Welcome to **Hackathon Challenge 01**! This repository contains a Jupyter Notebook that showcases the power of transformer models for various natural language processing (NLP) tasks. The notebook leverages cutting-edge libraries like Hugging Face `transformers` and PyTorch to build, train, and fine-tune a model on your chosen text data.
 
 ## 🚀 Overview
