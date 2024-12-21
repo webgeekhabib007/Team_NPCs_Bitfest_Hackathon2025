@@ -26,25 +26,26 @@ Follow these simple steps to get started with the notebook:
    ```bash
    git clone https://github.com/webgeekhabib007/Team_NPCs_Bitfest_Hackathon2025
    cd main/challange01
-
+   ```
 2. **Install the required libraries**:
-```
-pip install transformers datasets torch
+   ```
+   pip install transformers datasets torch
 
+   ```
 
 3. **Launch the Jupyter Notebook**:
-```
-jupyter notebook hackathon_challange01.ipynb
+   ```
+   jupyter notebook hackathon_challange01.ipynb
 
+   ```
 4. **Requirements**:
-```
-torch>=1.9.0
-transformers>=4.10.0
-datasets>=2.0.0
+   ```
+   torch>=1.9.0
+   transformers>=4.10.0
+   datasets>=2.0.0
+   ```
 
-
-
-✨ Key Features
+✨ Some Key Features
 Efficient Dataset Handling: Easily load and preprocess text data using the datasets library, ensuring smooth workflows.
 Transformer Model Fine-Tuning: Fine-tune state-of-the-art transformer models like T5 to tackle your specific NLP tasks.
 Simplified Training with Trainer API: Leverage Hugging Face’s Trainer API to handle model training, evaluation, and hyperparameter tuning.
