@@ -1,5 +1,5 @@
 const express = require('express');
-const Ingredient = require('./models/Ingredient'); // Assuming you saved the model in models/Ingredient.js
+const Ingredient = require('../models/ingredientModel.js'); 
 const router = express.Router();
 
 // GET /ingredients - Fetch all available ingredients
