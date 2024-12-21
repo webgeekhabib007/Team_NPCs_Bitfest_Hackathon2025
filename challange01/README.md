@@ -23,7 +23,7 @@ The following Python libraries are essential for this notebook:
 1. Clone the repository:
    ```bash
    git clone https://github.com/webgeekhabib007/Team_NPCs_Bitfest_Hackathon2025
-   cd https://github.com/webgeekhabib007/Team_NPCs_Bitfest_Hackathon2025/tree/main/challange01
+   cd ./main/challange01
    ```
 
 2. Install the required libraries:
